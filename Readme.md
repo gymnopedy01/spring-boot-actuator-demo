@@ -33,3 +33,11 @@ http://127.0.0.1:8080/actuator
 [Production Ready Feature](https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html#actuator)
 ## 강의 자료
 https://semtul79.tistory.com/category/spring%20boot/actuator%20in%20spring%20boot
+
+# 섹션1. actuator 기본 설정과 다양하 endpoint
+## endpoints 설정
+https://semtul79.tistory.com/13
+
+endpoint는 각각 제어에 관련
+endpoints는 노출 에 과련
+## custom endpoints 생성

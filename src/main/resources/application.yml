@@ -1,0 +1,28 @@
+# 활성화설정과 노출 설정
+management:
+  endpoint:
+    health:
+      enable: true
+      cache:
+        time-to-live: 1d
+    beans:
+      enable: false
+      cache:
+        time-to-live: 1d
+    cache:
+      enable: true
+      cache:
+        time-to-live: 2s
+    heapdump:
+      enable: true
+      cache:
+        time-to-live: 10s
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        exclude:
+          - beans
+      cors:
+        allowed-origins: http://test.com
+        allowed-methods: GET

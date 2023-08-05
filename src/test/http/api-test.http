@@ -1,0 +1,20 @@
+### ACTUATOR
+GET http://localhost:8080/actuator
+
+### GET
+GET http://localhost:8080/actuator/myLibraryInfo?includeVersion=true
+Content-Type: application/json
+
+
+### POST
+POST http://localhost:8080/actuator/myLibraryInfo
+Content-Type: application/json
+
+{
+  "name": "test1",
+  "enableSomething": false
+}
+
+### GET
+GET http://localhost:8080/actuator/myLibraryInfo/111/222
+Content-Type: application/json
