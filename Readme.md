@@ -21,9 +21,10 @@ http://127.0.0.1:8080/actuator
 }
 ```
 
-|일자| 학습내용 |
-|--|-----|
-|20230805| 섹션0|
+| 일자       | 학습내용                             |
+|----------|----------------------------------|
+| 20230805 | 섹션0                              |
+| 20230806 | 섹션1 endpoints 설정 \n 커스텀 엔드포인트 설정 |
 
 # 섹션0. 실습 프로젝트 생성 및 강의 개요
 ## 프로젝트 생성
@@ -41,3 +42,7 @@ https://semtul79.tistory.com/13
 endpoint는 각각 제어에 관련
 endpoints는 노출 에 과련
 ## custom endpoints 생성
+
+## health endpoint
+show-component
+show-detail

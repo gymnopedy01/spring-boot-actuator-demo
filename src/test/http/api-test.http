@@ -18,3 +18,8 @@ Content-Type: application/json
 ### GET
 GET http://localhost:8080/actuator/myLibraryInfo/111/222
 Content-Type: application/json
+
+
+### CUSTOM - HEALTH
+GET http://localhost:8080/actuator/health
+

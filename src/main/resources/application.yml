@@ -5,6 +5,7 @@ management:
       enable: true
       cache:
         time-to-live: 1d
+      show-details: ALWAYS
     beans:
       enable: false
       cache:
