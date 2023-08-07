@@ -23,3 +23,9 @@ Content-Type: application/json
 ### CUSTOM - HEALTH
 GET http://localhost:8080/actuator/health
 
+
+### INFO
+GET http://localhost:8080/actuator/info
+
+### INFO
+GET http://localhost:8080/actuator/env

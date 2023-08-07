@@ -15,6 +15,7 @@
     <description>actuator-demo</description>
     <properties>
         <java.version>17</java.version>
+        <custom.value>hello</custom.value>
     </properties>
     <dependencies>
         <dependency>

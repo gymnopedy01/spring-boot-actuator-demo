@@ -46,3 +46,5 @@ endpoints는 노출 에 과련
 ## health endpoint
 show-component
 show-detail
+
+## info endpoint
