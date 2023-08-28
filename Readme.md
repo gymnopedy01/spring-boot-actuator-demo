@@ -41,7 +41,19 @@ https://semtul79.tistory.com/13
 
 endpoint는 각각 제어에 관련
 endpoints는 노출 에 과련
+
+beans	등록된 bean 목록 제공
+caches	cache 사용중이라면 cache 관련 정보 제공
+conditions	spring auto configuration 에 의해 bean으로 등록된것과 그렇지 않은 것의 상세 이유를 제공
+health	application이 구동중인지, application과 연동되는 다른 서비스(DB, message queue)가 구동중인지 여부 제공
+info	application 의 대략적인 정보
+metrics	cpu, mem, thread count 등의 모니터링용 메트릭 정보
+logger	로거 설정 확인 실시간 로그 레벨 변경 제공
+quartz	quartz 라는 스케줄링 관련 라이브러리를 사용하고 있다면, quartz 관련 정보를 상세히 제공
+
 ## custom endpoints 생성
+- https://semtul79.tistory.com/14  
+- <a href="https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html#actuator.endpoints.implementing-custom">공식가이드-Implementing Custom Endpoints</a>
 
 ## health endpoint
 show-component

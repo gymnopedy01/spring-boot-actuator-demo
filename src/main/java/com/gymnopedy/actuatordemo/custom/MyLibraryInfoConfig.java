@@ -6,8 +6,8 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class MyLibraryInfoConfig {
     @Bean
-    public MyLibraryINfoEndpoint myLibraryInfoEndpoint() {
-        return new MyLibraryINfoEndpoint();
+    public MyLibraryInfoEndpoint myLibraryInfoEndpoint() {
+        return new MyLibraryInfoEndpoint();
     }
 
 }

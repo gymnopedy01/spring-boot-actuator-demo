@@ -12,7 +12,7 @@ import java.util.List;
 
 @Slf4j
 @Endpoint(id = "myLibraryInfo")
-public class MyLibraryINfoEndpoint {
+public class MyLibraryInfoEndpoint {
 
     @ReadOperation
     public List<LibraryInfo> getLibraryInfos(@Nullable String name, boolean includeVersion) {
@@ -25,9 +25,9 @@ public class MyLibraryINfoEndpoint {
                         .name("jackson")
                         .version("2.0.0")
                         .build());
+
         if (name != null) {
-            libraryInfos = libraryInfos
-                    .stream()
+            libraryInfos = libraryInfos.stream()
                     .filter(lib -> lib.getName().equals(name))
                     .toList();
         }
@@ -50,7 +50,8 @@ public class MyLibraryINfoEndpoint {
     }
 
     @ReadOperation
-    public String getPathTest(@Selector(match= Selector.Match.ALL_REMAINING) String[] path1) {
+//    public String getPathTest(@Selector(match = Selector.Match.SINBLE) String[] path1) {
+    public String getPathTest(@Selector(match = Selector.Match.ALL_REMAINING) String[] path1) {
         log.info("path1: {}", Arrays.asList(path1));
         return "path1:" + Arrays.asList(path1);
     }
