@@ -1,0 +1,7 @@
+### info 확인 - application.yml 에서 입력, vmoption 으로 입력 가능
+GET http://localhost:8080/actuator/info
+
+
+
+### env - 전체 환경변수가 보임
+GET http://localhost:8080/actuator/env
