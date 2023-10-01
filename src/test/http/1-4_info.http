@@ -1,4 +1,4 @@
-### info 확인 - application.yml 에서 입력, vmoption 으로 입력 가능
+### info 확인 - application.yml 에서 입력, vmoption 으로 입력 가능 / git, build 안보이는경우라면 , mvn clean install
 GET http://localhost:8080/actuator/info
 
 

@@ -1,0 +1,20 @@
+### actuator
+GET http://localhost:8080/actuator
+
+### metrics @see metricsEndpointAutoconfig
+GET http://localhost:8080/actuator/metrics
+
+### mectrics disk.free
+GET http://localhost:8080/actuator/metrics/disk.free
+
+### mectrics process.cpu.usage
+GET http://localhost:8080/actuator/metrics/process.cpu.usage
+
+
+### metrics @see metricsEndpointAutoconfig
+GET http://localhost:8080/actuator/metrics
+
+### mectrics my.stock @see myStockManager
+GET http://localhost:8080/actuator/metrics/my.stock
+
+
