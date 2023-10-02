@@ -1,0 +1,12 @@
+### actuator
+GET http://localhost:8080/actuator
+
+### metrics
+GET http://localhost:8080/actuator/metrics
+
+### metrics my.queue.size
+GET http://localhost:8080/actuator/metrics/my.queue.size
+
+
+### metrics my.queue.size
+GET http://localhost:8080/actuator/metrics/my.queue2.size
