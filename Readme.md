@@ -67,3 +67,6 @@ show-detail
 
 ## counter
 https://micrometer.io/docs/concepts#_counters
+
+## tag
+tag=KEY:VALUE

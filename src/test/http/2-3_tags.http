@@ -1,0 +1,51 @@
+### actuator
+GET http://localhost:8080/actuator
+
+### metrics
+GET http://localhost:8080/actuator/metrics
+
+### metrics jvm.memory.max
+GET http://localhost:8080/actuator/metrics/jvm.memory.max
+
+
+### metrics jvm.memory.max heap
+GET http://localhost:8080/actuator/metrics/jvm.memory.max?tag=area:heap
+
+### metrics jvm.memory.max nonheap
+GET http://localhost:8080/actuator/metrics/jvm.memory.max?tag=area:nonheap
+
+
+### push
+GET http://localhost:8080/api/tag/push
+
+### pop
+GET http://localhost:8080/api/tag/pop
+
+### metrics
+GET http://localhost:8080/actuator/metrics
+
+### metrics my.queue.counter
+GET http://localhost:8080/actuator/metrics/my.queue.counter
+
+### metrics my.queue.counter
+GET http://localhost:8080/actuator/metrics/my.queue.counter?tag=type:push
+
+### metrics my.queue.counter
+GET http://localhost:8080/actuator/metrics/my.queue.counter?tag=type:pop
+
+
+### counted
+GET http://localhost:8080/api/tag/counted
+
+### decreased
+GET http://localhost:8080/api/tag/decreased
+
+### my.counted
+GET http://localhost:8080/actuator/metrics/my.counted
+
+### my.counted
+GET http://localhost:8080/actuator/metrics/my.counted?tag=type:value1
+
+
+### test
+GET http://localhost:8080/api/tag/test
