@@ -1,0 +1,29 @@
+### actuator
+GET http://localhost:8080/actuator
+
+### metrics
+GET http://localhost:8080/actuator/metrics
+
+### metrics @see MyHttpRequestManager
+GET http://localhost:8080/actuator/metrics/my.http.request
+
+### metrics @see CounterController
+GET http://localhost:8080/counter/req
+
+### metrics @see MyHttpRequestManager
+GET http://localhost:8080/actuator/metrics/my.http.request
+
+### metrics @see MyFunctionCounterConfig
+GET http://localhost:8080/actuator/metrics/my.function.counter
+
+### metrics @see CounterConfigWithoutMeterBinder
+GET http://localhost:8080/actuator/metrics/my.function.counter2
+
+
+
+
+### metrics @see CounterController
+GET http://localhost:8080/counter/counted
+
+### metrics @see CounterConfigWithoutMeterBinder, CountConfig
+GET http://localhost:8080/actuator/metrics/my.counted.counter

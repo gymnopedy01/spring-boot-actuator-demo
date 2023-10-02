@@ -60,3 +60,10 @@ show-component
 show-detail
 
 ## info endpoint
+
+## metric
+@see custommetrics
+
+
+## counter
+https://micrometer.io/docs/concepts#_counters
