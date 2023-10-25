@@ -63,10 +63,13 @@ show-detail
 
 ## metric
 @see custommetrics
-
+<a href="src/main/java/com/gymnopedy/actuatordemo/custommetrics/MyStockManager.java">custommetrics</a>
+<a href="./pom.xml">maven</a>
 
 ## counter
 https://micrometer.io/docs/concepts#_counters
 
 ## tag
+https://semtul79.tistory.com/19
+
 tag=KEY:VALUE

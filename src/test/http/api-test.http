@@ -6,7 +6,7 @@ GET http://localhost:8080/actuator/myLibraryInfo?includeVersion=true
 Content-Type: application/json
 
 ### GET
-GET http://localhost:8080/actuator/myLibraryInfo?includeVersion=false
+GET http://localhost:8080/actuator/myLibraryInfo?includeVersion=true
 Content-Type: application/json
 
 ### GET

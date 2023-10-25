@@ -14,6 +14,11 @@ GET http://localhost:8080/actuator/metrics/jvm.memory.max?tag=area:heap
 ### metrics jvm.memory.max nonheap
 GET http://localhost:8080/actuator/metrics/jvm.memory.max?tag=area:nonheap
 
+### metrics multi jvm.memory.max area:heap, id:G1 Eden Space
+GET http://localhost:8080/actuator/metrics/jvm.memory.max?tag=area:heap&tag=id:G1 Eden Space
+
+### metrics http.server.requests / status:200 값이 리턴됨
+GET http://localhost:8080/actuator/metrics/http.server.requests?tag=status:200
 
 ### push
 GET http://localhost:8080/api/tag/push

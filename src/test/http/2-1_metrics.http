@@ -18,3 +18,5 @@ GET http://localhost:8080/actuator/metrics
 GET http://localhost:8080/actuator/metrics/my.stock
 
 
+### mectrics disk.free
+GET http://localhost:8080/actuator/metrics
